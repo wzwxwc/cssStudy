@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>first-of-type</title>
+    <style>
+        .tint-random > span:first-of-type {
+            /*border-left: 2px solid darkgreen;*/
+        }
+
+        .tint-random > span {
+            /*border-left: 2px solid darkgreen;*/
+        }
+
+        .tint-random > span:first-child {
+            border-left: 2px solid darkgreen;
+        }
+    </style>
+</head>
+<body>
+<span class="tint-random">
+    <span>0.0</span>
+    <span>0.1</span>
+    <span>1.6</span>
+    <span>7.0</span>
+    <span>15</span>
+    <span>40</span>
+    <span>50</span>
+</span>
+</body>
+</html>
